@@ -1,0 +1,7 @@
+package com.azienda.sweetter.model.customException;
+
+public class UserAlreadyExistsException extends RuntimeException {
+    public UserAlreadyExistsException() { super(); }
+
+    public UserAlreadyExistsException(String message) { super(message); }
+}
